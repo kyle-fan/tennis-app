@@ -8,7 +8,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "AceCoach — Tennis Coaching Platform",
+  title: "Tennis Sprouts Coaching Platform",
   description: "Personalized tennis coaching for players of all levels.",
 };
 

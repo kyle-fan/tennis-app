@@ -51,7 +51,6 @@ export default function PlayerDashboard({ player }: { player: Player }) {
               <h1 className="text-2xl font-bold text-green-950">{player.name}</h1>
               <TierBadge tier={playerTier} size="md" />
             </div>
-            <p className="text-sm text-gray-500 mb-3">Member since {player.memberSince}</p>
             {/* Overall tier progress bar */}
             <div className="mb-2">
               <div className="flex justify-between items-center mb-1">

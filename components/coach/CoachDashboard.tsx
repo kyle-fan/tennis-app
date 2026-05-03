@@ -1,7 +1,6 @@
 import { type Player } from "@/data/players";
 
 const upcomingWeekLessons = [
-  { player: "Sofia Martinez", date: "May 2", time: "8:00 AM", focus: "Approach shot selection drills" },
   { player: "Alex Chen", date: "May 3", time: "10:00 AM", focus: "Serve mechanics & toss drill" },
   { player: "Tyler Brooks", date: "May 3", time: "11:00 AM", focus: "Eastern grip forehand + rally basics" },
   { player: "Priya Kapoor", date: "May 4", time: "6:00 PM", focus: "Backhand drive — leg drive & rotation" },
@@ -56,7 +55,7 @@ export default function CoachDashboard({ players }: { players: Player[] }) {
       {/* Stat Row */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         <StatCard label="Total Players" value={String(players.length)} icon="👥" />
-        <StatCard label="Lessons This Week" value="7" icon="📅" />
+        <StatCard label="Lessons This Week" value="6" icon="📅" />
         <StatCard label="Hours Coached This Month" value="18h" icon="⏱️" />
         <StatCard label="Players with Recent Activity" value="4" icon="🔥" />
       </div>

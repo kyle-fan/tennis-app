@@ -50,7 +50,6 @@ export default function CoachPlayers({
                 <div className="flex-1 min-w-0">
                   <h3 className="text-base font-bold text-green-950 mb-1.5">{player.name}</h3>
                   <TierBadge tier={playerTier} size="sm" />
-                  <p className="text-xs text-gray-400 mt-1.5">Since {player.memberSince}</p>
                 </div>
               </div>
 
